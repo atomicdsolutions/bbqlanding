@@ -1,0 +1,38 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D2E8C" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#5D2E8C" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- BBQ grill illustration -->
+  <circle cx="400" cy="300" r="150" fill="#2D1843" stroke="#DAB03C" stroke-width="4"/>
+  <rect x="300" y="290" width="200" height="10" fill="#DAB03C"/>
+  <rect x="270" y="350" width="30" height="100" fill="#2D1843" stroke="#DAB03C" stroke-width="2"/>
+  <rect x="500" y="350" width="30" height="100" fill="#2D1843" stroke="#DAB03C" stroke-width="2"/>
+  <rect x="380" y="350" width="40" height="100" fill="#2D1843" stroke="#DAB03C" stroke-width="2"/>
+  
+  <!-- Meat on grill -->
+  <rect x="320" y="250" width="40" height="30" rx="5" fill="#8B4513" stroke="#000" stroke-width="1"/>
+  <rect x="380" y="250" width="40" height="30" rx="5" fill="#8B4513" stroke="#000" stroke-width="1"/>
+  <rect x="440" y="250" width="40" height="30" rx="5" fill="#8B4513" stroke="#000" stroke-width="1"/>
+  
+  <!-- Grill lines -->
+  <line x1="320" y1="265" x2="360" y2="265" stroke="#000" stroke-width="2"/>
+  <line x1="380" y1="265" x2="420" y2="265" stroke="#000" stroke-width="2"/>
+  <line x1="440" y1="265" x2="480" y2="265" stroke="#000" stroke-width="2"/>
+  
+  <!-- Smoke effect -->
+  <path d="M340 200 C360 180, 330 160, 350 140 C370 120, 340 100, 360 80" fill="none" stroke="white" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M400 200 C420 180, 390 160, 410 140 C430 120, 400 100, 420 80" fill="none" stroke="white" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M460 200 C480 180, 450 160, 470 140 C490 120, 460 100, 480 80" fill="none" stroke="white" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Text label -->
+  <text x="400" y="500" font-family="Montserrat, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">PREMIUM SMOKED MEATS</text>
+  <text x="400" y="530" font-family="Inter, sans-serif" font-size="16" fill="#DAB03C" text-anchor="middle">Purple Haze BBQ Signature Process</text>
+</svg>

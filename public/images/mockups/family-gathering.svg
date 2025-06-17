@@ -1,0 +1,53 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient for family gathering -->
+  <defs>
+    <linearGradient id="familyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D2E8C" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5D2E8C" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background color -->
+  <rect width="1200" height="800" fill="#F5F0FF"/>
+  
+  <!-- Image placeholder with warm tones -->
+  <rect x="100" y="100" width="1000" height="600" fill="url(#familyGradient)" rx="8"/>
+  
+  <!-- Gold decorative elements -->
+  <rect x="100" y="100" width="1000" height="10" fill="#DAB03C" rx="5"/>
+  <rect x="100" y="690" width="1000" height="10" fill="#DAB03C" rx="5"/>
+  
+  <!-- Purple Haze BBQ Logo -->
+  <g transform="translate(130, 130)">
+    <!-- Grill (simplified) -->
+    <circle cx="40" cy="40" r="30" fill="white"/>
+    <path d="M25 40 h30 M30 30 C40 25, 50 25, 60 30 C50 50, 30 50, 20 30" fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Text -->
+    <text x="80" y="35" font-family="Montserrat, sans-serif" font-weight="800" font-size="22" fill="white">PURPLE HAZE</text>
+    <text x="80" y="60" font-family="Montserrat, sans-serif" font-weight="800" font-size="28" fill="#DAB03C">BBQ</text>
+  </g>
+
+  <!-- Central image description -->
+  <g transform="translate(600, 380)">
+    <text x="0" y="0" font-family="Montserrat, sans-serif" font-weight="700" font-size="36" text-anchor="middle" fill="white">FAMILY GATHERING</text>
+    <line x1="-150" y1="20" x2="150" y2="20" stroke="#DAB03C" stroke-width="4"/>
+    
+    <!-- Photo description -->
+    <foreignObject x="-300" y="40" width="600" height="200">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; font-family: 'Inter', sans-serif; font-size: 18px; color: white; line-height: 1.5;">
+        <p>African American family reunion in a backyard with multiple generations gathered around smoking grills. Adults laughing and enjoying food on plates, while children play nearby. Features signature Purple Haze BBQ smoked brisket, ribs, and sides being served from branded platters.</p>
+      </div>
+    </foreignObject>
+  </g>
+  
+  <!-- Photo direction notes at bottom -->
+  <g transform="translate(600, 650)">
+    <text x="0" y="0" font-family="Inter, sans-serif" font-weight="600" font-size="20" text-anchor="middle" fill="white">PHOTOGRAPHY DIRECTION</text>
+    <foreignObject x="-400" y="10" width="800" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; font-family: 'Inter', sans-serif; font-size: 14px; color: white; line-height: 1.5;">
+        <p>Warm lighting, candid moments, vibrant atmosphere. Focus on emotional connections between family members and their enjoyment of the food. Capture authentic reactions to tasting Purple Haze BBQ signature dishes. Include multi-generational family members interacting around food service areas.</p>
+      </div>
+    </foreignObject>
+  </g>
+</svg>

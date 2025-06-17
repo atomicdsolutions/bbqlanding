@@ -1,0 +1,46 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="Montserrat, sans-serif" font-weight="700" font-size="32" text-anchor="middle" fill="#5D2E8C">PURPLE HAZE BBQ - COLOR PALETTE</text>
+  <line x1="200" y1="80" x2="600" y2="80" stroke="#DAB03C" stroke-width="3"/>
+  
+  <!-- Primary Colors -->
+  <text x="400" y="130" font-family="Montserrat, sans-serif" font-weight="600" font-size="24" text-anchor="middle" fill="#212121">Primary Colors</text>
+  
+  <!-- Purple -->
+  <rect x="180" y="150" width="200" height="120" rx="10" fill="#5D2E8C"/>
+  <text x="280" y="300" font-family="Inter, sans-serif" font-weight="600" font-size="18" text-anchor="middle" fill="#212121">Primary Purple</text>
+  <text x="280" y="330" font-family="Inter, sans-serif" font-weight="400" font-size="16" text-anchor="middle" fill="#212121">#5D2E8C</text>
+  <text x="280" y="355" font-family="Inter, sans-serif" font-weight="400" font-size="16" text-anchor="middle" fill="#212121">RGB: 93, 46, 140</text>
+  
+  <!-- Gold -->
+  <rect x="420" y="150" width="200" height="120" rx="10" fill="#DAB03C"/>
+  <text x="520" y="300" font-family="Inter, sans-serif" font-weight="600" font-size="18" text-anchor="middle" fill="#212121">Accent Gold</text>
+  <text x="520" y="330" font-family="Inter, sans-serif" font-weight="400" font-size="16" text-anchor="middle" fill="#212121">#DAB03C</text>
+  <text x="520" y="355" font-family="Inter, sans-serif" font-weight="400" font-size="16" text-anchor="middle" fill="#212121">RGB: 218, 176, 60</text>
+  
+  <!-- Secondary Colors -->
+  <text x="400" y="410" font-family="Montserrat, sans-serif" font-weight="600" font-size="24" text-anchor="middle" fill="#212121">Secondary Colors</text>
+  
+  <!-- Dark Purple -->
+  <rect x="100" y="430" width="150" height="100" rx="10" fill="#2D1843"/>
+  <text x="175" y="550" font-family="Inter, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#212121">Dark Purple</text>
+  <text x="175" y="575" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">#2D1843</text>
+  
+  <!-- Light Purple -->
+  <rect x="270" y="430" width="150" height="100" rx="10" fill="#F5F0FF"/>
+  <text x="345" y="550" font-family="Inter, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#212121">Light Purple</text>
+  <text x="345" y="575" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">#F5F0FF</text>
+  
+  <!-- Dark Gray -->
+  <rect x="440" y="430" width="150" height="100" rx="10" fill="#212121"/>
+  <text x="515" y="550" font-family="Inter, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#212121">Dark Gray</text>
+  <text x="515" y="575" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">#212121</text>
+  
+  <!-- Light Gray -->
+  <rect x="610" y="430" width="150" height="100" rx="10" fill="#F5F5F5" stroke="#E0E0E0"/>
+  <text x="685" y="550" font-family="Inter, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#212121">Light Gray</text>
+  <text x="685" y="575" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">#F5F5F5</text>
+</svg>

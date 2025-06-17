@@ -1,0 +1,64 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DAB03C" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#DAB03C" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Backyard setup -->
+  <rect x="0" y="400" width="800" height="200" fill="#228B22" fill-opacity="0.8"/>
+  
+  <!-- Table -->
+  <rect x="200" y="350" width="400" height="30" fill="#8B4513" rx="5"/>
+  <rect x="210" y="380" width="20" height="120" fill="#8B4513"/>
+  <rect x="570" y="380" width="20" height="120" fill="#8B4513"/>
+  
+  <!-- Food on table -->
+  <rect x="230" y="310" width="80" height="40" rx="5" fill="#A52A2A"/>
+  <rect x="330" y="330" width="70" height="20" rx="5" fill="#F5DEB3"/>
+  <rect x="420" y="320" width="60" height="30" rx="5" fill="#228B22"/>
+  <rect x="500" y="315" width="50" height="35" rx="5" fill="#CD853F"/>
+  
+  <!-- People at family gathering -->
+  <!-- Adults -->
+  <circle cx="150" cy="250" r="40" fill="#5D2E8C" fill-opacity="0.7"/>
+  <rect x="130" y="290" width="40" height="100" rx="5" fill="#5D2E8C" fill-opacity="0.7"/>
+  
+  <circle cx="250" cy="230" r="40" fill="#5D2E8C" fill-opacity="0.7"/>
+  <rect x="230" y="270" width="40" height="100" rx="5" fill="#5D2E8C" fill-opacity="0.7"/>
+  
+  <circle cx="450" cy="240" r="40" fill="#5D2E8C" fill-opacity="0.7"/>
+  <rect x="430" y="280" width="40" height="100" rx="5" fill="#5D2E8C" fill-opacity="0.7"/>
+  
+  <circle cx="550" cy="220" r="40" fill="#5D2E8C" fill-opacity="0.7"/>
+  <rect x="530" y="260" width="40" height="100" rx="5" fill="#5D2E8C" fill-opacity="0.7"/>
+  
+  <circle cx="650" cy="260" r="40" fill="#5D2E8C" fill-opacity="0.7"/>
+  <rect x="630" y="300" width="40" height="100" rx="5" fill="#5D2E8C" fill-opacity="0.7"/>
+  
+  <!-- Children -->
+  <circle cx="350" cy="300" r="25" fill="#5D2E8C" fill-opacity="0.7"/>
+  <rect x="340" y="325" width="20" height="60" rx="5" fill="#5D2E8C" fill-opacity="0.7"/>
+  
+  <circle cx="600" cy="320" r="25" fill="#5D2E8C" fill-opacity="0.7"/>
+  <rect x="590" y="345" width="20" height="60" rx="5" fill="#5D2E8C" fill-opacity="0.7"/>
+  
+  <!-- BBQ grill -->
+  <rect x="100" y="350" width="80" height="50" rx="5" fill="#2D1843"/>
+  <rect x="110" y="340" width="60" height="5" fill="#C0C0C0"/>
+  <rect x="130" y="400" width="10" height="50" fill="#2D1843"/>
+  <rect x="140" y="400" width="10" height="50" fill="#2D1843"/>
+  
+  <!-- Smoke from grill -->
+  <path d="M130 330 C140 320, 120 310, 130 300 C140 290, 120 280, 130 270" fill="none" stroke="white" stroke-opacity="0.8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M150 335 C160 325, 140 315, 150 305 C160 295, 140 285, 150 275" fill="none" stroke="white" stroke-opacity="0.8" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Text label -->
+  <text x="400" y="520" font-family="Montserrat, sans-serif" font-size="24" fill="#5D2E8C" text-anchor="middle" font-weight="bold">FAMILY REUNION CATERING</text>
+  <text x="400" y="550" font-family="Inter, sans-serif" font-size="16" fill="#5D2E8C" text-anchor="middle">Bringing Generations Together with Great Food</text>
+</svg>

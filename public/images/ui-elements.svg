@@ -1,0 +1,87 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="Montserrat, sans-serif" font-weight="700" font-size="32" text-anchor="middle" fill="#5D2E8C">PURPLE HAZE BBQ - UI ELEMENTS</text>
+  <line x1="200" y1="80" x2="600" y2="80" stroke="#DAB03C" stroke-width="3"/>
+  
+  <!-- Buttons Section -->
+  <text x="400" y="130" font-family="Montserrat, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#212121">Buttons</text>
+  
+  <!-- Primary Button -->
+  <rect x="100" y="160" width="200" height="50" rx="6" fill="#5D2E8C"/>
+  <text x="200" y="191" font-family="Montserrat, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#FFFFFF">PRIMARY BUTTON</text>
+  
+  <!-- Primary Button Hover -->
+  <rect x="330" y="160" width="200" height="50" rx="6" fill="#2D1843"/>
+  <text x="430" y="191" font-family="Montserrat, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#FFFFFF">PRIMARY (HOVER)</text>
+  
+  <!-- Secondary Button -->
+  <rect x="100" y="230" width="200" height="50" rx="6" fill="#DAB03C"/>
+  <text x="200" y="261" font-family="Montserrat, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#FFFFFF">SECONDARY BUTTON</text>
+  
+  <!-- Secondary Button Hover -->
+  <rect x="330" y="230" width="200" height="50" rx="6" fill="#B99029"/>
+  <text x="430" y="261" font-family="Montserrat, sans-serif" font-weight="600" font-size="16" text-anchor="middle" fill="#FFFFFF">SECONDARY (HOVER)</text>
+  
+  <!-- Text Link -->
+  <text x="200" y="320" font-family="Inter, sans-serif" font-weight="500" font-size="16" text-anchor="middle" fill="#5D2E8C">Text Link</text>
+  <line x1="175" y1="325" x2="225" y2="325" stroke="#5D2E8C" stroke-width="1"/>
+  
+  <!-- Text Link Hover -->
+  <text x="430" y="320" font-family="Inter, sans-serif" font-weight="500" font-size="16" text-anchor="middle" fill="#DAB03C">Text Link (Hover)</text>
+  <line x1="380" y1="325" x2="480" y2="325" stroke="#DAB03C" stroke-width="1"/>
+  
+  <!-- Cards Section -->
+  <text x="400" y="380" font-family="Montserrat, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#212121">Cards</text>
+  
+  <!-- Standard Card -->
+  <rect x="100" y="400" width="280" height="180" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="100" y="400" width="280" height="40" rx="8" fill="#F5F0FF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="100" y="400" width="280" height="8" rx="8" fill="#5D2E8C" stroke="#5D2E8C" stroke-width="1"/>
+  <text x="240" y="425" font-family="Montserrat, sans-serif" font-weight="600" font-size="14" text-anchor="middle" fill="#212121">CARD TITLE</text>
+  <text x="240" y="480" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">Card content goes here with</text>
+  <text x="240" y="501" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">description text and information</text>
+  <rect x="170" y="530" width="140" height="30" rx="6" fill="#5D2E8C"/>
+  <text x="240" y="550" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" text-anchor="middle" fill="#FFFFFF">BUTTON</text>
+  
+  <!-- Hover Card -->
+  <rect x="420" y="400" width="280" height="180" rx="8" fill="#FFFFFF" stroke="#DAB03C" stroke-width="1" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <rect x="420" y="400" width="280" height="40" rx="8" fill="#F5F0FF" stroke="#DAB03C" stroke-width="1"/>
+  <rect x="420" y="400" width="280" height="8" rx="8" fill="#5D2E8C" stroke="#5D2E8C" stroke-width="1"/>
+  <text x="560" y="425" font-family="Montserrat, sans-serif" font-weight="600" font-size="14" text-anchor="middle" fill="#212121">CARD TITLE (HOVER)</text>
+  <text x="560" y="480" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">Card content goes here with</text>
+  <text x="560" y="501" font-family="Inter, sans-serif" font-weight="400" font-size="14" text-anchor="middle" fill="#212121">description text and information</text>
+  <rect x="490" y="530" width="140" height="30" rx="6" fill="#5D2E8C"/>
+  <text x="560" y="550" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" text-anchor="middle" fill="#FFFFFF">BUTTON</text>
+  
+  <!-- Form Elements Section -->
+  <text x="400" y="620" font-family="Montserrat, sans-serif" font-weight="700" font-size="24" text-anchor="middle" fill="#212121">Form Elements</text>
+  
+  <!-- Input Field -->
+  <rect x="100" y="650" width="240" height="40" rx="6" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="120" y="675" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#757575">Input field</text>
+  <text x="100" y="640" font-family="Inter, sans-serif" font-weight="500" font-size="12" fill="#212121">LABEL</text>
+  
+  <!-- Input Field Focus -->
+  <rect x="380" y="650" width="240" height="40" rx="6" fill="#FFFFFF" stroke="#5D2E8C" stroke-width="2"/>
+  <text x="400" y="675" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">Focused input</text>
+  <text x="380" y="640" font-family="Inter, sans-serif" font-weight="500" font-size="12" fill="#5D2E8C">LABEL (FOCUS)</text>
+  
+  <!-- Radio Buttons -->
+  <circle cx="130" cy="720" r="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="150" y="725" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">Radio option</text>
+  
+  <circle cx="130" cy="750" r="10" fill="#5D2E8C" stroke="#5D2E8C" stroke-width="1"/>
+  <circle cx="130" cy="750" r="4" fill="#FFFFFF"/>
+  <text x="150" y="755" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">Selected radio</text>
+  
+  <!-- Checkboxes -->
+  <rect x="380" y="710" width="20" height="20" rx="4" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="410" y="725" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">Checkbox option</text>
+  
+  <rect x="380" y="740" width="20" height="20" rx="4" fill="#5D2E8C" stroke="#5D2E8C" stroke-width="1"/>
+  <path d="M385 750 L390 755 L395 745" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="410" y="755" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">Selected checkbox</text>
+</svg>

@@ -1,0 +1,155 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1050" height="600" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="525" y="50" font-family="Montserrat, sans-serif" font-weight="700" font-size="28" text-anchor="middle" fill="#5D2E8C">PURPLE HAZE BBQ - BUSINESS CARD TEMPLATE</text>
+  <line x1="300" y1="70" x2="750" y2="70" stroke="#DAB03C" stroke-width="3"/>
+  
+  <!-- Business Card Front -->
+  <rect x="150" y="120" width="350" height="200" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="150" y="120" width="350" height="10" rx="5" fill="#5D2E8C"/>
+  
+  <!-- Logo on Front -->
+  <svg x="170" y="140" width="120" height="120" viewBox="0 0 240 240">
+    <!-- Grill (Purple) -->
+    <path d="M120 50 C160 50 180 80 180 120 C180 140 170 160 120 170 C70 160 60 140 60 120 C60 80 80 50 120 50" fill="#5D2E8C"/>
+    <!-- Grill details -->
+    <path d="M120 70 C140 70 150 90 150 110 C150 120 145 130 120 135 C95 130 90 120 90 110 C90 90 100 70 120 70" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M90 120 L150 120" stroke="#FFFFFF" stroke-width="3"/>
+    <!-- Smoke -->
+    <path d="M110 50 C110 40 120 30 130 40 C140 30 150 40 140 55" fill="none" stroke="#5D2E8C" stroke-width="6"/>
+    <path d="M130 50 C130 35 145 30 150 45 C160 35 170 45 160 60" fill="none" stroke="#5D2E8C" stroke-width="6"/>
+    <!-- Grill Stand -->
+    <path d="M100 170 L80 200 M140 170 L160 200 M120 170 L120 200" stroke="#5D2E8C" stroke-width="5"/>
+    <circle cx="160" cy="190" r="10" fill="#5D2E8C"/>
+  </svg>
+  
+  <!-- Text on Front -->
+  <text x="310" y="160" font-family="Montserrat, sans-serif" font-weight="800" font-size="24" text-anchor="middle" fill="#5D2E8C">PURPLE HAZE</text>
+  <text x="310" y="190" font-family="Montserrat, sans-serif" font-weight="800" font-size="30" text-anchor="middle" fill="#DAB03C">BBQ</text>
+  <text x="310" y="230" font-family="Montserrat, sans-serif" font-weight="600" font-size="12" text-anchor="middle" fill="#212121">Premium BBQ Catering in the DMV Area</text>
+  
+  <!-- Business Card Back -->
+  <rect x="550" y="120" width="350" height="200" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="550" y="120" width="350" height="10" rx="5" fill="#DAB03C"/>
+  
+  <!-- Contact Info on Back -->
+  <text x="575" y="160" font-family="Montserrat, sans-serif" font-weight="700" font-size="16" fill="#5D2E8C">CHEF MICHAEL JOHNSON</text>
+  <text x="575" y="180" font-family="Montserrat, sans-serif" font-weight="500" font-size="12" fill="#212121">Executive Pitmaster & Owner</text>
+  
+  <line x1="575" y1="195" x2="875" y2="195" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Contact Details -->
+  <svg x="575" y="210" width="16" height="16" viewBox="0 0 24 24">
+    <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" fill="#5D2E8C"/>
+  </svg>
+  <text x="600" y="222" font-family="Inter, sans-serif" font-weight="400" font-size="13" fill="#212121">(202) 555-1234</text>
+  
+  <svg x="575" y="235" width="16" height="16" viewBox="0 0 24 24">
+    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+  </svg>
+  <text x="600" y="247" font-family="Inter, sans-serif" font-weight="400" font-size="13" fill="#212121">contact@purplehaze-bbq.com</text>
+  
+  <svg x="575" y="260" width="16" height="16" viewBox="0 0 24 24">
+    <path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+  </svg>
+  <text x="600" y="272" font-family="Inter, sans-serif" font-weight="400" font-size="13" fill="#212121">www.purplehaze-bbq.com</text>
+  
+  <svg x="575" y="285" width="16" height="16" viewBox="0 0 24 24">
+    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+    <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+  </svg>
+  <text x="600" y="297" font-family="Inter, sans-serif" font-weight="400" font-size="13" fill="#212121">DMV Area | Washington DC, Maryland, Virginia</text>
+  
+  <!-- Social Media Icons -->
+  <g transform="translate(770, 270)">
+    <circle cx="12" cy="12" r="10" fill="#5D2E8C"/>
+    <path d="M18 8h-3v4.4h3v3.2h-3V21h-4v-5.4H8v-3.2h3V8.5c0-2.5 1-4.5 4.4-4.5 1.2 0 2.6 0 2.6 0v3H16c-1 0-1 .5-1 1z" fill="#FFFFFF"/>
+  </g>
+  
+  <g transform="translate(800, 270)">
+    <circle cx="12" cy="12" r="10" fill="#5D2E8C"/>
+    <path d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm5-9a1 1 0 100 2 1 1 0 000-2z" fill="#FFFFFF"/>
+  </g>
+  
+  <g transform="translate(830, 270)">
+    <circle cx="12" cy="12" r="10" fill="#5D2E8C"/>
+    <path d="M19 8.6c-.4.2-.9.3-1.4.4.5-.3.9-.8 1.1-1.4-.5.3-1 .5-1.5.6-.4-.5-1.1-.8-1.8-.8-1.4 0-2.5 1.1-2.5 2.5 0 .2 0 .4.1.6-2.1-.1-3.9-1.1-5.1-2.6-.2.4-.3.8-.3 1.3 0 .9.4 1.6 1.1 2.1-.4 0-.8-.1-1.1-.3v.1c0 1.2.8 2.2 1.9 2.4-.2.1-.4.1-.7.1-.2 0-.3 0-.5-.1.3.9 1.1 1.6 2.1 1.6-.8.6-1.8 1-2.9 1-.2 0-.4 0-.6 0 1.1.7 2.3 1.1 3.6 1.1 4.4 0 6.8-3.6 6.8-6.8v-.3c.4-.3.8-.7 1.2-1.2z" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Horizontal Business Card -->
+  <rect x="150" y="370" width="750" height="200" rx="5" fill="#F5F0FF" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Purple Bar on Horizontal Card -->
+  <rect x="150" y="370" width="10" height="200" rx="5" fill="#5D2E8C"/>
+  
+  <!-- Logo on Horizontal Card -->
+  <svg x="180" y="395" width="150" height="150" viewBox="0 0 240 240">
+    <!-- Grill (Purple) -->
+    <path d="M120 50 C160 50 180 80 180 120 C180 140 170 160 120 170 C70 160 60 140 60 120 C60 80 80 50 120 50" fill="#5D2E8C"/>
+    <!-- Grill details -->
+    <path d="M120 70 C140 70 150 90 150 110 C150 120 145 130 120 135 C95 130 90 120 90 110 C90 90 100 70 120 70" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M90 120 L150 120" stroke="#FFFFFF" stroke-width="3"/>
+    <!-- Smoke -->
+    <path d="M110 50 C110 40 120 30 130 40 C140 30 150 40 140 55" fill="none" stroke="#5D2E8C" stroke-width="6"/>
+    <path d="M130 50 C130 35 145 30 150 45 C160 35 170 45 160 60" fill="none" stroke="#5D2E8C" stroke-width="6"/>
+    <!-- Grill Stand -->
+    <path d="M100 170 L80 200 M140 170 L160 200 M120 170 L120 200" stroke="#5D2E8C" stroke-width="5"/>
+    <circle cx="160" cy="190" r="10" fill="#5D2E8C"/>
+    
+    <!-- Text Below Logo -->
+    <text x="120" y="230" font-family="Montserrat, sans-serif" font-weight="800" font-size="24" text-anchor="middle" fill="#5D2E8C">PURPLE HAZE</text>
+    <text x="120" y="260" font-family="Montserrat, sans-serif" font-weight="800" font-size="30" text-anchor="middle" fill="#DAB03C">BBQ</text>
+  </svg>
+  
+  <!-- Vertical line separator -->
+  <line x1="350" y1="390" x2="350" y2="550" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Text on right side of horizontal card -->
+  <text x="380" y="420" font-family="Montserrat, sans-serif" font-weight="700" font-size="18" fill="#5D2E8C">CHEF MICHAEL JOHNSON</text>
+  <text x="380" y="445" font-family="Montserrat, sans-serif" font-weight="500" font-size="14" fill="#212121">Executive Pitmaster & Owner</text>
+  
+  <!-- Contact Details on horizontal card -->
+  <svg x="380" y="470" width="18" height="18" viewBox="0 0 24 24">
+    <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" fill="#5D2E8C"/>
+  </svg>
+  <text x="410" y="484" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">(202) 555-1234</text>
+  
+  <svg x="380" y="500" width="18" height="18" viewBox="0 0 24 24">
+    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+  </svg>
+  <text x="410" y="514" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">contact@purplehaze-bbq.com</text>
+  
+  <svg x="380" y="530" width="18" height="18" viewBox="0 0 24 24">
+    <path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+  </svg>
+  <text x="410" y="544" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">www.purplehaze-bbq.com</text>
+  
+  <!-- Address on horizontal card -->
+  <svg x="600" y="470" width="18" height="18" viewBox="0 0 24 24">
+    <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+    <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" fill="none" stroke="#5D2E8C" stroke-width="2"/>
+  </svg>
+  <text x="630" y="484" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">DMV Area</text>
+  <text x="630" y="510" font-family="Inter, sans-serif" font-weight="400" font-size="14" fill="#212121">Washington DC, Maryland, Virginia</text>
+  
+  <!-- Gold Accent Line on horizontal card -->
+  <line x1="600" y1="530" x2="800" y2="530" stroke="#DAB03C" stroke-width="3"/>
+  
+  <!-- Social Media Icons on horizontal card -->
+  <g transform="translate(730, 470)">
+    <circle cx="15" cy="15" r="12" fill="#5D2E8C"/>
+    <path d="M22 10h-3v4.4h3v3.2h-3V23h-4v-5.4h-3v-3.2h3V10.5c0-2.5 1-4.5 4.4-4.5 1.2 0 2.6 0 2.6 0v3H19c-1 0-1 .5-1 1z" fill="#FFFFFF"/>
+  </g>
+  
+  <g transform="translate(765, 470)">
+    <circle cx="15" cy="15" r="12" fill="#5D2E8C"/>
+    <path d="M15 9a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm5-9a1 1 0 100 2 1 1 0 000-2z" fill="#FFFFFF"/>
+  </g>
+  
+  <g transform="translate(800, 470)">
+    <circle cx="15" cy="15" r="12" fill="#5D2E8C"/>
+    <path d="M22 10.6c-.4.2-.9.3-1.4.4.5-.3.9-.8 1.1-1.4-.5.3-1 .5-1.5.6-.4-.5-1.1-.8-1.8-.8-1.4 0-2.5 1.1-2.5 2.5 0 .2 0 .4.1.6-2.1-.1-3.9-1.1-5.1-2.6-.2.4-.3.8-.3 1.3 0 .9.4 1.6 1.1 2.1-.4 0-.8-.1-1.1-.3v.1c0 1.2.8 2.2 1.9 2.4-.2.1-.4.1-.7.1-.2 0-.3 0-.5-.1.3.9 1.1 1.6 2.1 1.6-.8.6-1.8 1-2.9 1-.2 0-.4 0-.6 0 1.1.7 2.3 1.1 3.6 1.1 4.4 0 6.8-3.6 6.8-6.8v-.3c.4-.3.8-.7 1.2-1.2z" fill="#FFFFFF"/>
+  </g>
+</svg>

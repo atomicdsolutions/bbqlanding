@@ -1,0 +1,340 @@
+/**
+ * Purple Haze BBQ Brand Styles
+ * This file contains all the brand-specific styles and variables
+ */
+
+/* Brand Colors */
+:root {
+  /* Primary Colors */
+  --ph-purple: #5D2E8C;
+  --ph-gold: #DAB03C;
+  
+  /* Secondary Colors */
+  --ph-dark-purple: #2D1843;
+  --ph-light-purple: #F5F0FF;
+  
+  /* Neutrals */
+  --ph-black: #212121;
+  --ph-dark-gray: #757575;
+  --ph-medium-gray: #BDBDBD;
+  --ph-light-gray: #E0E0E0;
+  --ph-off-white: #F5F5F5;
+  
+  /* Fonts */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  
+  /* Box Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h1, .h1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: var(--ph-black);
+}
+
+h2, .h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  color: var(--ph-black);
+}
+
+h3, .h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1.3;
+  color: var(--ph-black);
+}
+
+h4, .h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--ph-black);
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--ph-black);
+}
+
+body, p {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--ph-black);
+}
+
+.small {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+/* Brand-specific Typography Modifiers */
+.text-purple {
+  color: var(--ph-purple);
+}
+
+.text-gold {
+  color: var(--ph-gold);
+}
+
+.text-dark-purple {
+  color: var(--ph-dark-purple);
+}
+
+/* Buttons */
+.btn {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--ph-purple);
+  color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--ph-dark-purple);
+}
+
+.btn-secondary {
+  background-color: var(--ph-gold);
+  color: white;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: #B99029; /* Darker gold */
+}
+
+.btn-tertiary {
+  background-color: transparent;
+  color: var(--ph-purple);
+  text-decoration: underline;
+  padding: 0.5rem 0.75rem;
+}
+
+.btn-tertiary:hover, .btn-tertiary:focus {
+  color: var(--ph-gold);
+}
+
+.btn-lg {
+  font-size: 1.125rem;
+  padding: 1rem 2rem;
+}
+
+.btn-sm {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border: 1px solid var(--ph-light-gray);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--ph-gold);
+}
+
+.card-accent {
+  border-top: 4px solid var(--ph-purple);
+}
+
+/* Form Elements */
+.form-control {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 0.625rem 1rem;
+  border: 1px solid var(--ph-light-gray);
+  border-radius: var(--radius-md);
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--ph-purple);
+  box-shadow: 0 0 0 3px rgba(93, 46, 140, 0.2);
+}
+
+.form-label {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: var(--ph-black);
+  margin-bottom: var(--space-xs);
+  display: block;
+}
+
+/* Custom Checkbox/Radio */
+.custom-checkbox,
+.custom-radio {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: var(--space-sm);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  user-select: none;
+  display: block;
+}
+
+.custom-checkbox input,
+.custom-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.25rem;
+  width: 1.25rem;
+  background-color: white;
+  border: 1px solid var(--ph-light-gray);
+  transition: all 0.2s ease;
+}
+
+.custom-radio .checkmark {
+  border-radius: 50%;
+}
+
+.custom-checkbox .checkmark {
+  border-radius: 4px;
+}
+
+.custom-checkbox input:checked ~ .checkmark,
+.custom-radio input:checked ~ .checkmark {
+  background-color: var(--ph-purple);
+  border-color: var(--ph-purple);
+}
+
+.custom-radio input:checked ~ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: white;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 8px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Background Utilities */
+.bg-purple {
+  background-color: var(--ph-purple);
+}
+
+.bg-gold {
+  background-color: var(--ph-gold);
+}
+
+.bg-dark-purple {
+  background-color: var(--ph-dark-purple);
+}
+
+.bg-light-purple {
+  background-color: var(--ph-light-purple);
+}
+
+/* Border Utilities */
+.border-purple {
+  border-color: var(--ph-purple);
+}
+
+.border-gold {
+  border-color: var(--ph-gold);
+}
+
+/* Container utility with brand-specific max-width */
+.container-brand {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-brand {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-brand {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Accessibility Focus Styles */
+:focus {
+  outline: 3px solid rgba(93, 46, 140, 0.5);
+  outline-offset: 2px;
+}

@@ -1,0 +1,53 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient for corporate event -->
+  <defs>
+    <linearGradient id="corporateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1843" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2D1843" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background color -->
+  <rect width="1200" height="800" fill="#F5F5F5"/>
+  
+  <!-- Image placeholder with cool professional tones -->
+  <rect x="100" y="100" width="1000" height="600" fill="url(#corporateGradient)" rx="8"/>
+  
+  <!-- Gold decorative elements -->
+  <rect x="100" y="100" width="1000" height="10" fill="#DAB03C" rx="5"/>
+  <rect x="100" y="690" width="1000" height="10" fill="#DAB03C" rx="5"/>
+  
+  <!-- Purple Haze BBQ Logo -->
+  <g transform="translate(130, 130)">
+    <!-- Grill (simplified) -->
+    <circle cx="40" cy="40" r="30" fill="white"/>
+    <path d="M25 40 h30 M30 30 C40 25, 50 25, 60 30 C50 50, 30 50, 20 30" fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Text -->
+    <text x="80" y="35" font-family="Montserrat, sans-serif" font-weight="800" font-size="22" fill="white">PURPLE HAZE</text>
+    <text x="80" y="60" font-family="Montserrat, sans-serif" font-weight="800" font-size="28" fill="#DAB03C">BBQ</text>
+  </g>
+
+  <!-- Central image description -->
+  <g transform="translate(600, 380)">
+    <text x="0" y="0" font-family="Montserrat, sans-serif" font-weight="700" font-size="36" text-anchor="middle" fill="white">CORPORATE EVENT</text>
+    <line x1="-150" y1="20" x2="150" y2="20" stroke="#DAB03C" stroke-width="4"/>
+    
+    <!-- Photo description -->
+    <foreignObject x="-300" y="40" width="600" height="200">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; font-family: 'Inter', sans-serif; font-size: 18px; color: white; line-height: 1.5;">
+        <p>Professional networking event in upscale venue with Purple Haze BBQ catering staff in branded uniforms serving elevated BBQ dishes. Diverse group of business professionals in business attire mingling around elegantly presented food stations. Branded signage visible throughout the venue.</p>
+      </div>
+    </foreignObject>
+  </g>
+  
+  <!-- Photo direction notes at bottom -->
+  <g transform="translate(600, 650)">
+    <text x="0" y="0" font-family="Inter, sans-serif" font-weight="600" font-size="20" text-anchor="middle" fill="white">PHOTOGRAPHY DIRECTION</text>
+    <foreignObject x="-400" y="10" width="800" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; font-family: 'Inter', sans-serif; font-size: 14px; color: white; line-height: 1.5;">
+        <p>Professional lighting, clean composition, sophisticated atmosphere. Focus on elegant presentation of BBQ dishes and professional service. Capture diverse group of business professionals networking while enjoying premium food offerings. Show branded displays and uniformed staff providing upscale service.</p>
+      </div>
+    </foreignObject>
+  </g>
+</svg>

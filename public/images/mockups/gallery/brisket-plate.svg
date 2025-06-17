@@ -1,0 +1,47 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Plate outline -->
+  <circle cx="400" cy="300" r="200" fill="white" stroke="#DAB03C" stroke-width="8"/>
+  
+  <!-- Food items -->
+  <!-- Brisket -->
+  <path d="M300 250 C350 230, 450 230, 500 250 C520 260, 520 280, 500 290 C450 310, 350 310, 300 290 C280 280, 280 260, 300 250Z" fill="#8B4513"/>
+  <path d="M340 250 L360 290" stroke="#3A1700" stroke-width="3"/>
+  <path d="M380 240 L390 290" stroke="#3A1700" stroke-width="3"/>
+  <path d="M420 240 L410 290" stroke="#3A1700" stroke-width="3"/>
+  <path d="M460 250 L440 290" stroke="#3A1700" stroke-width="3"/>
+  
+  <!-- Sides -->
+  <circle cx="250" cy="350" r="40" fill="#FFD700"/> <!-- Mac & cheese -->
+  <rect x="220" y="340" width="60" height="5" fill="#F5DEB3" rx="2"/>
+  <rect x="230" y="350" width="40" height="5" fill="#F5DEB3" rx="2"/>
+  
+  <circle cx="550" cy="350" r="40" fill="#006400"/> <!-- Collard greens -->
+  <path d="M530 340 C540 335, 550 350, 560 340" stroke="#008000" stroke-width="2" fill="none"/>
+  <path d="M535 350 C545 345, 555 360, 565 350" stroke="#008000" stroke-width="2" fill="none"/>
+  <path d="M530 360 C540 355, 550 370, 560 360" stroke="#008000" stroke-width="2" fill="none"/>
+  
+  <!-- Sauce drizzle -->
+  <path d="M320 270 C330 260, 350 280, 360 270" stroke="#A52A2A" stroke-width="2" fill="none"/>
+  <path d="M400 260 C410 250, 430 270, 440 260" stroke="#A52A2A" stroke-width="2" fill="none"/>
+  <path d="M470 270 C480 260, 490 280, 500 270" stroke="#A52A2A" stroke-width="2" fill="none"/>
+  
+  <!-- Garnish -->
+  <circle cx="400" cy="180" r="15" fill="#228B22"/>
+  <path d="M395 175 L405 185" stroke="white" stroke-width="1"/>
+  <path d="M405 175 L395 185" stroke="white" stroke-width="1"/>
+  
+  <!-- Text label -->
+  <text x="400" y="520" font-family="Montserrat, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">SIGNATURE BRISKET PLATE</text>
+  <text x="400" y="550" font-family="Inter, sans-serif" font-size="16" fill="#DAB03C" text-anchor="middle">Slow-smoked for 12 hours with our purple haze rub</text>
+</svg>

@@ -1,0 +1,7 @@
+// Add to package.json in dependencies section
+{
+  "dependencies": {
+    "framer-motion": "^10.16.4",
+    "@heroicons/react": "^2.0.18"
+  }
+}

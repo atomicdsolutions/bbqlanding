@@ -1,0 +1,76 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <radialGradient id="foodGradient" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#2D1843" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background color -->
+  <rect width="1200" height="800" fill="#111"/>
+  
+  <!-- Food image simulation -->
+  <rect x="100" y="100" width="1000" height="600" fill="url(#foodGradient)" rx="8"/>
+  
+  <!-- Smoke effect -->
+  <path d="M500 250 C520 220, 580 210, 560 180 C540 150, 600 140, 620 170 C640 200, 680 190, 670 160" 
+        fill="none" stroke="white" stroke-width="2" stroke-opacity="0.3" stroke-linecap="round"/>
+        
+  <path d="M520 270 C540 240, 600 230, 580 200 C560 170, 620 160, 640 190 C660 220, 700 210, 690 180" 
+        fill="none" stroke="white" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round"/>
+  
+  <!-- Food platter simulation -->
+  <ellipse cx="600" cy="450" rx="400" ry="200" fill="#2D1843" fill-opacity="0.7" stroke="#DAB03C" stroke-width="3"/>
+  
+  <!-- Meat illustrations -->
+  <path d="M400 350 C450 330, 500 380, 550 360 C600 340, 650 380, 700 360 C750 340, 800 380, 850 360" 
+        fill="#5D2E8C" stroke="#DAB03C" stroke-width="2"/>
+  
+  <path d="M350 420 C400 400, 450 450, 500 430 C550 410, 600 450, 650 430 C700 410, 750 450, 800 430 C850 410, 900 450, 950 430" 
+        fill="#5D2E8C" stroke="#772F1A" stroke-width="3"/>
+  
+  <!-- BBQ grill marks -->
+  <line x1="400" y1="350" x2="420" y2="370" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="480" y1="350" x2="500" y2="370" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="560" y1="350" x2="580" y2="370" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="640" y1="350" x2="660" y2="370" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="720" y1="350" x2="740" y2="370" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="800" y1="350" x2="820" y2="370" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  
+  <line x1="380" y1="430" x2="400" y2="450" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="460" y1="430" x2="480" y2="450" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="540" y1="430" x2="560" y2="450" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="620" y1="430" x2="640" y2="450" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="700" y1="430" x2="720" y2="450" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="780" y1="430" x2="800" y2="450" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  <line x1="860" y1="430" x2="880" y2="450" stroke="#772F1A" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Side dishes -->
+  <circle cx="300" cy="500" r="50" fill="#FFD54F" fill-opacity="0.9" stroke="#DAB03C" stroke-width="2"/>
+  <circle cx="900" cy="500" r="50" fill="#4CAF50" fill-opacity="0.8" stroke="#DAB03C" stroke-width="2"/>
+  <rect x="450" y="500" width="100" height="70" rx="10" fill="#A1887F" fill-opacity="0.9" stroke="#DAB03C" stroke-width="2"/>
+  <rect x="650" y="500" width="100" height="70" rx="10" fill="#FFAB91" fill-opacity="0.8" stroke="#DAB03C" stroke-width="2"/>
+  
+  <!-- Gold trim on plate -->
+  <ellipse cx="600" cy="450" rx="400" ry="200" fill="none" stroke="#DAB03C" stroke-width="3"/>
+  
+  <!-- Purple Haze BBQ watermark -->
+  <g transform="translate(600, 690)" opacity="0.7">
+    <text x="0" y="0" font-family="Montserrat, sans-serif" font-weight="800" font-size="24" text-anchor="middle" fill="#5D2E8C">PURPLE HAZE</text>
+    <text x="0" y="30" font-family="Montserrat, sans-serif" font-weight="800" font-size="30" text-anchor="middle" fill="#DAB03C">BBQ</text>
+  </g>
+
+  <!-- Dish title -->
+  <g transform="translate(600, 180)">
+    <text x="0" y="0" font-family="Montserrat, sans-serif" font-weight="700" font-size="36" text-anchor="middle" fill="white">SIGNATURE SMOKEHOUSE PLATTER</text>
+    <line x1="-250" y1="20" x2="250" y2="20" stroke="#DAB03C" stroke-width="4"/>
+    
+    <!-- Photo description -->
+    <foreignObject x="-300" y="40" width="600" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="text-align: center; font-family: 'Inter', sans-serif; font-size: 18px; color: white; line-height: 1.5;">
+        <p>Slow-smoked brisket, tender ribs, and chicken with signature purple haze rub, served with classic sides: mac & cheese, collard greens, and cornbread.</p>
+      </div>
+    </foreignObject>
+  </g>
+</svg>

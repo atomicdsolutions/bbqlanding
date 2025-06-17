@@ -1,0 +1,44 @@
+<svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="900" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="400" y="60" font-family="Montserrat, sans-serif" font-weight="700" font-size="32" text-anchor="middle" fill="#5D2E8C">PURPLE HAZE BBQ - TYPOGRAPHY</text>
+  <line x1="200" y1="80" x2="600" y2="80" stroke="#DAB03C" stroke-width="3"/>
+  
+  <!-- Primary Font: Montserrat -->
+  <text x="400" y="130" font-family="Montserrat, sans-serif" font-weight="700" font-size="28" text-anchor="middle" fill="#212121">Primary Font: Montserrat</text>
+  
+  <!-- Montserrat Examples -->
+  <text x="100" y="180" font-family="Montserrat, sans-serif" font-weight="800" font-size="24" fill="#5D2E8C">Montserrat Extra Bold (800)</text>
+  <text x="100" y="210" font-family="Montserrat, sans-serif" font-weight="800" font-size="20" fill="#212121">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+  <text x="100" y="235" font-family="Montserrat, sans-serif" font-weight="800" font-size="20" fill="#212121">abcdefghijklmnopqrstuvwxyz 0123456789</text>
+  
+  <text x="100" y="280" font-family="Montserrat, sans-serif" font-weight="700" font-size="24" fill="#5D2E8C">Montserrat Bold (700)</text>
+  <text x="100" y="310" font-family="Montserrat, sans-serif" font-weight="700" font-size="20" fill="#212121">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+  <text x="100" y="335" font-family="Montserrat, sans-serif" font-weight="700" font-size="20" fill="#212121">abcdefghijklmnopqrstuvwxyz 0123456789</text>
+  
+  <text x="100" y="380" font-family="Montserrat, sans-serif" font-weight="600" font-size="24" fill="#5D2E8C">Montserrat Semi-Bold (600)</text>
+  <text x="100" y="410" font-family="Montserrat, sans-serif" font-weight="600" font-size="20" fill="#212121">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+  <text x="100" y="435" font-family="Montserrat, sans-serif" font-weight="600" font-size="20" fill="#212121">abcdefghijklmnopqrstuvwxyz 0123456789</text>
+  
+  <!-- Secondary Font: Inter -->
+  <text x="400" y="500" font-family="Montserrat, sans-serif" font-weight="700" font-size="28" text-anchor="middle" fill="#212121">Secondary Font: Inter</text>
+  
+  <!-- Inter Examples -->
+  <text x="100" y="550" font-family="Inter, sans-serif" font-weight="700" font-size="24" fill="#5D2E8C">Inter Bold (700)</text>
+  <text x="100" y="580" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#212121">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+  <text x="100" y="605" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#212121">abcdefghijklmnopqrstuvwxyz 0123456789</text>
+  
+  <text x="100" y="650" font-family="Inter, sans-serif" font-weight="600" font-size="24" fill="#5D2E8C">Inter Semi-Bold (600)</text>
+  <text x="100" y="680" font-family="Inter, sans-serif" font-weight="600" font-size="20" fill="#212121">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+  <text x="100" y="705" font-family="Inter, sans-serif" font-weight="600" font-size="20" fill="#212121">abcdefghijklmnopqrstuvwxyz 0123456789</text>
+  
+  <text x="100" y="750" font-family="Inter, sans-serif" font-weight="500" font-size="24" fill="#5D2E8C">Inter Medium (500)</text>
+  <text x="100" y="780" font-family="Inter, sans-serif" font-weight="500" font-size="20" fill="#212121">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+  <text x="100" y="805" font-family="Inter, sans-serif" font-weight="500" font-size="20" fill="#212121">abcdefghijklmnopqrstuvwxyz 0123456789</text>
+  
+  <text x="100" y="850" font-family="Inter, sans-serif" font-weight="400" font-size="24" fill="#5D2E8C">Inter Regular (400)</text>
+  <text x="100" y="880" font-family="Inter, sans-serif" font-weight="400" font-size="20" fill="#212121">ABCDEFGHIJKLMNOPQRSTUVWXYZ</text>
+  <text x="100" y="905" font-family="Inter, sans-serif" font-weight="400" font-size="20" fill="#212121">abcdefghijklmnopqrstuvwxyz 0123456789</text>
+</svg>
